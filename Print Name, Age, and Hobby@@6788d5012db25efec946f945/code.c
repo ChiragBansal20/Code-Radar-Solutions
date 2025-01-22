@@ -11,6 +11,6 @@ int main() {
     scanf("%s", &s1);
     printf("Name: %s\n", s);
     printf("Age: %d\n",a);
-    printf("Hobby: %s", s1)
+    printf("Hobby: %s", s1);
     return 0;
 }
