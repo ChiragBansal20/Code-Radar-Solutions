@@ -6,8 +6,8 @@ char* welcome() {
 
 int main() {
     #define pi 3.14
-    int r;
-    scanf("%d", &r);
+    float r;
+    scanf("%f", &r);
     float area = pi*r*r;
     printf("Area: %.2f", area);
     return 0;
