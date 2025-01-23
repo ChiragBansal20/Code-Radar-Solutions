@@ -3,12 +3,11 @@
 char* welcome() {
     return "Welcome to Code Radar!";
 }
-
 int main() {
     char a;
     scanf("%f", &a);
     if(isupper(a)) {
-        printf(""Uppercase);
+        printf("Uppercase");
     }
     else if(islower(a)) {
         printf("Lowercase");
