@@ -17,11 +17,11 @@ int main() {
             printf("%d\n", a/b);
         }                       
         else {
-            printf("Error in case of any error\n");
+            printf("error in case of any error\n");
         }       
         break;
         default:
-            printf("Error in case of any error\n");
+            printf("error in case of any error\n");
             break;
     }
     return 0;
