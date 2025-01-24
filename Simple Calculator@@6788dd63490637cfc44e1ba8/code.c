@@ -17,7 +17,7 @@ int main() {
             printf("%d\n", a/b);
         }                       
         else {
-            printf("Error: Division by zero\n");
+            printf("Error");
         }       
         break;
         default:
