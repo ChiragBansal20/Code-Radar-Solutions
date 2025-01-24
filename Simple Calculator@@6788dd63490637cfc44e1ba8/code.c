@@ -17,11 +17,11 @@ int main() {
             printf("%d\n", a/b);
         }                       
         else {
-            printf("Error");
+            printf("Error\n");
         }       
         break;
         default:
-        printf("Error: Invalid Operation\n");
+        printf("Error\n");
         break;
     }
     return 0;
