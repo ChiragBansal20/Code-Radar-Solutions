@@ -7,18 +7,29 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d", &a);
-    for(int i=1; i<=12; i++) {
-        if(a%2!=0) {
-            printf("31");
-        }
-    }
-    for(int i=4; i<=12; i++) {
-        if(a%2==0) {
-            printf("30");
-        }
-    }
-    if(a=2) {
-        printf("2");
+    
+    switch (a) {
+        case 1 : printf("31");
+                break;
+        case 2 : printf("28");
+                break;
+        case 3 : printf("31");
+                break;
+        case 4 : printf("30");
+                break;
+        case 5 : printf("31");
+                break;
+        case 6 : printf("30");
+                break;
+        case 7 : printf("31");
+                break;
+        case 8 : printf("30");
+                break;
+        case 9 : printf("31");
+                break;
+        case 10 : printf("30");
+                break;
+                                                                        
     }
     return 0;
 }
