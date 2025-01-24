@@ -21,8 +21,8 @@ int main() {
         }       
         break;
         default:
-        printf("Error\n");
-        break;
+            printf("Error\n");
+            break;
     }
     return 0;
 
