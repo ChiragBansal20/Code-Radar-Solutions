@@ -11,7 +11,7 @@ int main() {
                 break;
         case '*' : printf("%d", a*b);  
                 break;
-        case '/' : printf("%d", a/b);
+        case '/' : printf("%.05", a/b);
                 break;
         default : printf("error");                              
     }
