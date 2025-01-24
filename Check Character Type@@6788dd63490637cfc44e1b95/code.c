@@ -8,13 +8,24 @@ int main() {
     char a;
     scanf("%c", &a);
     if(a>='a' && a<='z') {
-        printf("Consonant");
+        switch (a) {
+            case 'a' : printf("Vowel");
+                     break;
+            case 'e' : printf("Vowel");
+                       break;
+            case 'i' : printf("Vowel");
+                       break;
+            case 'o' : printf("Vowel");
+                       break;
+            case 'u' : printf("Vowel");
+                       break;
+            default:
+                printf("Consonant");
+                break;                                            
+        }
     }
     else if(a>='1' && a<='100') {
         printf("Digit");
-    }
-    else if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u') {
-        printf("Vowel");
     }
     else {
         printf("Special Character");
