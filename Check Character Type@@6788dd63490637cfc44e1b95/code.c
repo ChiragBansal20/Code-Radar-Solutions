@@ -22,7 +22,7 @@ int main() {
             default : printf("Consonant");                                            
         }
     }
-    else if(a>=1 && a<=100) {
+    else if(a>=1 && a<=1000) {
         printf("Digit");
     }
     else {
