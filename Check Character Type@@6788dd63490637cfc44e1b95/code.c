@@ -10,7 +10,7 @@ int main() {
     if(a>='a' && a<='z') {
         switch (a) {
             case 'a' : printf("Vowel");
-                     break;
+                       break;
             case 'e' : printf("Vowel");
                        break;
             case 'i' : printf("Vowel");
