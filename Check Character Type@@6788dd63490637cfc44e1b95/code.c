@@ -25,7 +25,10 @@ int main() {
             case 'U' : printf("Vowel");
                        break;
             case 'I' : printf("Vowel");
-                       break;                                 
+                       break;   
+            case 'A' : printf("Vowel");
+                       break;
+                                                                
             default : printf("Consonant");                                            
         }
     }
