@@ -19,9 +19,7 @@ int main() {
                        break;
             case 'u' : printf("Vowel");
                        break;
-            default:
-                printf("Consonant");
-                break;                                            
+            default : printf("Consonant");                                            
         }
     }
     else if(a>='1' && a<='100') {
