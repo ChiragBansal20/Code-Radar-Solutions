@@ -8,7 +8,7 @@ int main() {
     char a;
     scanf("%c", &a);
 
-    if(a>='a' && a<='z') {
+    if((a>='a' && a<='z') || (a>='A' && a<='Z')) {
         switch (a) {
             case 'a' : printf("Vowel");
                        break;
@@ -20,6 +20,10 @@ int main() {
                        break;
             case 'u' : printf("Vowel");
                        break;
+            case 'A' : printf("Vowel");
+                       break;
+            case 'E' : printf("Vowel");
+                       break;                      
             default : printf("Consonant");                                            
         }
     }
