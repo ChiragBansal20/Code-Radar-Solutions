@@ -7,6 +7,7 @@ char* welcome() {
 int main() {
     char a;
     scanf("%c", &a);
+
     if(a>='a' && a<='z') {
         switch (a) {
             case 'a' : printf("Vowel");
@@ -22,7 +23,7 @@ int main() {
             default : printf("Consonant");                                            
         }
     }
-    else if(a>=1 && a<=1000) {
+    else if(a>='0' && a<='9') {
         printf("Digit");
     }
     else {
