@@ -28,7 +28,8 @@ int main() {
                        break;   
             case 'A' : printf("Vowel");
                        break;
-                                                                
+            case 'E' : printf("Vowel");
+                       break;                                                   
             default : printf("Consonant");                                            
         }
     }
