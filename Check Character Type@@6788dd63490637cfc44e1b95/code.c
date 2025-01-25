@@ -20,7 +20,7 @@ int main() {
                        break;
             case 'u' : printf("Vowel");
                        break;
-            case 'I' : printf("Vowel");
+            case 'O' : printf("Vowel");
                        break;
             case 'U' : printf("Vowel");
                        break;                      
