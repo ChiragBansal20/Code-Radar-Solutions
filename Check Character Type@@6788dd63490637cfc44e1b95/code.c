@@ -33,7 +33,7 @@ int main() {
             default : printf("Consonant");                                            
         }
     }
-    else if(isdigit(a)) {
+    else if(a>='0' && a<='9') {
         printf("Digit");
     }
     else {
