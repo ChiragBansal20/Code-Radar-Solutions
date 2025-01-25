@@ -20,9 +20,9 @@ int main() {
                        break;
             case 'u' : printf("Vowel");
                        break;
-            case 'A' : printf("Vowel");
+            case 'I' : printf("Vowel");
                        break;
-            case 'E' : printf("Vowel");
+            case 'O' : printf("Vowel");
                        break;                      
             default : printf("Consonant");                                            
         }
