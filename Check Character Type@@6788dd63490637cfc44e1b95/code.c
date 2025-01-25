@@ -23,7 +23,9 @@ int main() {
             case 'O' : printf("Vowel");
                        break;
             case 'U' : printf("Vowel");
-                       break;                      
+                       break;
+            case 'I' : printf("Vowel");
+                       break;                                 
             default : printf("Consonant");                                            
         }
     }
