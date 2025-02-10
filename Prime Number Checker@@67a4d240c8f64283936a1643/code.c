@@ -24,7 +24,7 @@ int isPrime(int num) {
             break;
         }
     }
-    if(isprime==1) {
+    if(isprime=1) {
         printf("1");
     }
     else {
