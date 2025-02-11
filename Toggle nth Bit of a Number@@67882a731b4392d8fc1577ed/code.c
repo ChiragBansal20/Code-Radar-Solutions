@@ -8,6 +8,6 @@ int main() {
         printf("1");
     }
     int mask = (1<<n);
-    n=n^mask;
+    a=a^mask;
     printf("%d", n);
 }
