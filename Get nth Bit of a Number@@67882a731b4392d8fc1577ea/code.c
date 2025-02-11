@@ -7,9 +7,7 @@ int main() {
     if(n<0 || n>31) {
         printf("1");
     }
-    else {
-        printf("0");
-    }
+    
     int bitval = (a >> n) & 1;
     printf("%d", bitval);
 }
