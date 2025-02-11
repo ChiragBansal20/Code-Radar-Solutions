@@ -9,5 +9,5 @@ int main() {
     }
     int mask = (1<<n);
     a=a^mask;
-    printf("%d", n);
+    printf("%d", a);
 }
