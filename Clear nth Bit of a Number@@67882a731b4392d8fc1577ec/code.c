@@ -9,6 +9,7 @@ int main() {
     }
 
     int mask = ~(1 << n);
-    num = num & mask;
-    printf("%d", num);
+
+    a = a & mask;
+    printf("%d", a);
 }
