@@ -8,7 +8,7 @@ int main() {
         printf("1");
     }
 
-    int mask = (1 << n);
+    int mask = ~(1 << n);
     num = num & mask;
     printf("%d", num);
 }
