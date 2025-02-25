@@ -3,7 +3,7 @@
 int isPrime(int num);
 
 int main() {
-    int t;
+    int t,num;
     scanf("%d", &t);
     for(int i=1; i<=num; i++) {
         int num;
@@ -13,7 +13,6 @@ int main() {
     return 0;
 }
 int isPrime(int num) {
-    int num;
     int isprime=1;
     if(num<=1) {
         isprime=0;
