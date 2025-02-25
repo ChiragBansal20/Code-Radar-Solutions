@@ -13,6 +13,7 @@ int main() {
     return 0;
 }
 int isPrime(int num) {
+    int num;
     int isprime=1;
     if(num<=1) {
         isprime=0;
