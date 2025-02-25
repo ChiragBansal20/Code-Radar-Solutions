@@ -5,8 +5,8 @@ int isPrime(int num);
 int main() {
     int t;
     scanf("%d", &t);
-    int i=1;
-    while(i<=t) {
+    int j=1;
+    while(j<=t) {
         int num;
         scanf("%d\n", &num);
         printf("%d\n", isPrime(num));
