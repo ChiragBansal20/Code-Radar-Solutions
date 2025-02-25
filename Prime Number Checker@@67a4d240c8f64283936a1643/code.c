@@ -19,8 +19,7 @@ int isPrime(int num) {
     }
     for(int i=2; i*i<=num; i++) {
         if(num%i==0) {
-            isprime=0;
-            break;
+            return 0;
         }
     }
     if(isprime==1) {
