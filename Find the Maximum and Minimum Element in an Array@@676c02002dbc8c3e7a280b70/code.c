@@ -1,9 +1,11 @@
 #include<stdio.h>
+#include<stlib.h>
 
 int main() {
-    int n, arr[n];
+    int n;
     int max, min;
     scanf("%d", &n);
+    int arr[n];
     for(int i=0; i<n; i++) {
         scanf("%d", &arr[i]);
     }
