@@ -11,7 +11,7 @@ int main() {
     scanf("%d", &k);
     int temp=arr[0];
     for(int i=0; i<n; i++) {
-        if(i==n-1) {
+        if(i==n-2) {
             arr[i]=temp;
         }
         else {
