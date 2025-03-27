@@ -10,13 +10,14 @@ int main() {
     int k;
     scanf("%d", &k);
     int temp=arr[0];
-    for(int i=0; i<n; i++) {
-        if(i==k) {
-            arr[i]=temp;
-        }
-        else {
-            arr[i]=arr[i+1];
-        }
+     for(int i=0; i<k; i++) {
+        temp[i] = arr[i];
+    }
+    for(int i=k; i<n; i++) {
+        arr[i-k] = arr[i];
+    }
+    for(int i=0; i<k; i++) {
+        arr[n-k+i] = temp[i];
     }
     for(int i=0; i<n; i++) {
         printf("%d\n", arr[i]);
