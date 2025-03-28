@@ -14,7 +14,7 @@ int main() {
                 count++;
             }
         }
-        else{
+        if(arr[i]<0){
             count=1;
         }
     }
