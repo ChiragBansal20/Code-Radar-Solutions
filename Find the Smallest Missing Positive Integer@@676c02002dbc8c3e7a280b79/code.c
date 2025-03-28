@@ -17,6 +17,9 @@ int main() {
         if(arr[i]==n) {
             count=1;
         }
+        if(arr[i]>n) {
+            count=1;
+        }
         if(arr[i]<0){
             count=1;
         }
