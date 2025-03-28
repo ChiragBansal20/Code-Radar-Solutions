@@ -14,10 +14,7 @@ int main() {
                 count++;
             }
         }
-        if(arr[i]==n) {
-            count=1;
-        }
-        if(arr[i]>n) {
+        if(arr[i]>=n) {
             count=1;
         }
         if(arr[i]<0){
