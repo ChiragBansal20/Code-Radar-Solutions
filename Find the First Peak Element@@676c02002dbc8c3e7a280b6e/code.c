@@ -20,7 +20,7 @@ int main() {
     }
     int max2=arr[index];
     for(int i=index; i<n; i++) {
-        if(arr[i]>max1) {
+        if(arr[i]>max2) {
             max2=arr[i];
             break;
         }
