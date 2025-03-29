@@ -8,13 +8,13 @@ int main() {
         scanf("%d ", &arr[i]);
     }
     int max, second_max;
-    // if (arr[0] > arr[1]) {
-    //     max = arr[0];
-    //     second_max = arr[1];
-    // } else {
-    //     max = arr[1];
-    //     second_max = arr[0];
-    // }
+    if (arr[0] > arr[1]) {
+        max = arr[0];
+        second_max = arr[1];
+    } else {
+        max = arr[1];
+        second_max = arr[0];
+    }
 
     for (int i = 2; i < n; i++) {
         if (arr[i] > max) {
