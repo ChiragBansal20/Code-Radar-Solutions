@@ -28,7 +28,7 @@ int main() {
     
 
 
-    if(max1>max2) {
+    if(max2>max1) {
         printf("%d", max2);
     }
     else {
