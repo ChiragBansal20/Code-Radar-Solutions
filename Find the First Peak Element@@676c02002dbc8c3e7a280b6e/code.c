@@ -7,12 +7,12 @@ int main() {
     for(int i=0; i<n; i++) {
         scanf("%d", &arr[i]);
     }
-    
-    for (int i = 0; i < n; i++) {
-        if ((i == 0 && arr[i] > arr[i + 1]) ||                          
-            (i == n - 1 && arr[i] > arr[i - 1]) ||                     
-            (i > 0 && i < n - 1 && arr[i] > arr[i - 1] && arr[i] > arr[i + 1])) { 
-            printf("First peak element is: %d\n", arr[i]);
+    int max=arr[0];
+    for(int i=0; i<n; i++) {
+        if(arr[i]>max) {
+            max=arr[i];
+            break;
         }
     }
+    printf("%d", max);
 }
