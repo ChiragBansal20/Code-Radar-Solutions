@@ -14,7 +14,7 @@ int main() {
             break;
         }
     }
-    for(int i=max[i]; i<n; i++) {
+    for(int i=max(i); i<n; i++) {
         if(arr[i]>max) {
             max=arr[i];
             break;
