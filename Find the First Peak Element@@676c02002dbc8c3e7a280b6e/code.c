@@ -13,6 +13,9 @@ int main() {
             max=arr[i];
             break;
         }
+        else {
+            printf("-1");
+        }
     }
     printf("%d", max);
 }
