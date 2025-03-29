@@ -31,9 +31,6 @@ int main() {
     if(max1>max2) {
         printf("%d", max2);
     }
-    else if(max1==max2) {
-        printf("-1");
-    }
     else {
         printf("%d", max1);
     }
