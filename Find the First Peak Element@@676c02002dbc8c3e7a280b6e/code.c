@@ -13,7 +13,6 @@ int main() {
             (i == n - 1 && arr[i] > arr[i - 1]) ||                     
             (i > 0 && i < n - 1 && arr[i] > arr[i - 1] && arr[i] > arr[i + 1])) { 
             printf("First peak element is: %d\n", arr[i]);
-            return 0;
         }
     }
 }
