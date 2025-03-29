@@ -27,7 +27,7 @@ int main() {
     }
 
     if (max == second_max) {
-        printf("0");
+        printf("-1");
     } else {
         printf("%d", second_max);
     }
