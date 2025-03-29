@@ -25,6 +25,11 @@ int main() {
             break;
         }
     }
+    for(int i=0; i<n; i++) {
+        if(arr[i]==arr[i]) {
+            printf("-1");
+        }
+    }
 
     if(max1>max2) {
         printf("%d", max2);
