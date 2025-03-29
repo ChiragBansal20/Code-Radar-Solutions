@@ -26,7 +26,7 @@ int main() {
         }
     }
 
-    if (max == second_max && n<2) {
+    if ((max == second_max) || (n<2)) {
         printf("-1");
     } 
     else {
